@@ -91,6 +91,13 @@ section h2{
     justify-content: first baseline;
     align-items: center;
 }
+.experience ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+    padding: 20px;
+}
 .experience h5{
     color: rgb(236, 235, 235);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -104,6 +111,7 @@ section h2{
     font-size: 15px;
     line-height: 20px;
     margin: 5px 0px;
+    text-align: left;
 }
 .certificate{
     background:linear-gradient(60deg, rgb(4, 38, 65), rgb(10, 32, 49)) ;
@@ -155,12 +163,12 @@ section h2{
     flex-flow: row;
     justify-content: space-around;
     align-items: center;
-    width: 50%;
+    width: 70%;
 }
 .summary h5{
     color: rgb(11, 43, 53);
     text-align: center;
-    width: 300px;
+    width: 8000px;
     border: solid 4px rgb(8, 184, 184);
     border-radius: 20px;
     padding: 20px;
