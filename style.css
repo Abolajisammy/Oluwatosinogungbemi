@@ -169,3 +169,22 @@ section h2{
 .summary img{
     width: 500px;
 }
+footer{
+    background-color: black;
+    width: 100%;
+    padding: 10px 0px;
+}
+footer h6{
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+footer h6 a{
+    color: orange;
+    text-align: center;
+    margin: 20px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
