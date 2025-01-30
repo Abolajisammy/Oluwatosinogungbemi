@@ -14,7 +14,7 @@
         background-position: center;
         background-repeat: no-repeat;
         height: 100vh;
-        padding: 0px 100px 0px 100px;
+        padding: 0px 100px;
     }
     
     .intro h1{
@@ -158,28 +158,41 @@ section h2{
 .summary h2{
     color: rgb(16, 71, 107);
 }
-.summary div{
+.summary-wrapper{
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: space-around;
     align-items: center;
-    width: 70%;
+    width: 80%;
 }
 .summary h5{
     color: rgb(11, 43, 53);
     text-align: center;
-    width: 8000px;
+    width: 50%;
     border: solid 4px rgb(8, 184, 184);
     border-radius: 20px;
     padding: 20px;
     font-size: 15px;
 }
-.summary img{
-    width: 500px;
+.pp-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 400px;
+    margin: 30px 0px;
+    padding: 0;
+    background-image: url(/profile-photo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 25000px 0 0 0 rgba(3, 2, 68, 0.4);
 }
+
 footer{
     background-color: black;
-    width: 100%;
     padding: 10px 0px;
 }
 footer h6{
@@ -196,3 +209,7 @@ footer h6 a{
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
 }
+
+    @media screen {
+        
+    }
